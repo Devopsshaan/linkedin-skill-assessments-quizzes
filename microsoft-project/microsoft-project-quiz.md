@@ -1,4 +1,4 @@
-﻿## Microsoft Project
+## Microsoft Project
 
 #### Q1. Where can you set fixed duration, effort driven, and manually scheduled?
 
@@ -40,8 +40,8 @@
 #### Q6. You want to switch the scheduling mode for a project from scheduling from a start date to scheduling from a finish date. This action will change the default constraint from As Soon As Possible to As Late As Possible. Which dialog box should you use to make this change?
 
 - [ ] Resource Information
-- [ ] Project Information
-- [x] Task Information
+- [x] Project Information
+- [ ] Task Information
 - [ ] Change Working Time
 
 #### Q7. A project contains many elements. What is used to describe the sum of the work required?
@@ -61,9 +61,11 @@
 #### Q9. You are troubleshooting a schedule on someone else's computer The schedule has 10,000 tasks. When a change is made to a task's duration on a Fixed Units task, the start and finish dates do not change. change highlighting does not appear, and the Gantt Chart bat does not update. What is the cause of this issue?
 
 - [ ] Inserted projects are calculated like summary tasks is selected.
-- [x] Calculate multiple critical paths is not selected.
+- [ ] Calculate multiple critical paths is not selected.
 - [ ] One of the Com add-ins is not selected.
-- [ ] Calculate project after each edit is set to Off.
+- [x] Calculate project after each edit is set to Off.
+
+`The hint being "The schedule has 10,000 tasks" and the fact that the Gantt Chart does not update.`
 
 #### Q10. You would like to understand which tasks are critical and which are not. When looking at the Gantt chart, how are these tasks identified by default?
 
@@ -104,8 +106,10 @@
 
 - [ ] It has changed to 10h.
 - [ ] It has changed to 6h.
-- [ ] It has changed to 125%.
-- [x] It has changed to 110%.
+- [x] It has changed to 125%.
+- [ ] It has changed to 110%.
+
+[reference link](https://support.microsoft.com/en-us/office/peak-task-field-a9947235-b552-4ae5-9f26-d58fdc1a27d3)
 
 #### Q16. What is another name for a work breakdown structure?
 
@@ -123,10 +127,12 @@
 
 #### Q18. You are preparing a meal comprising a main dish and multiple side dishes. You want the finish of the main dish to drive the finish of the side dishes. The main dish will start before and take longer than the side dishes. You need to create a link from the main dish to each of the side dishes. Which link type is appropriate?
 
-- [x] Start-to-Finish (SF)
-- [ ] Finish-to-Finish(FF)
+- [ ] Start-to-Finish (SF)
+- [x] Finish-to-Finish(FF)
 - [ ] Finish-to-Start (FS)
 - [ ] Start-to-Start (SS)
+
+**Reasoning:** the problem states that the finish of the secondary dishes should be the same with the finish of the main course. The main course takes longer to complete than the secondary dishes. If we set Start-to-Finish, the secondary dishes will begin after the main dish is complete and this is not what the problem stated.
 
 #### Q19. A resource is overallocated in a project. This resource is responsible for two tasks that are to happen at the same time. The first of these tasks is on the critical path. Which solution should you use to remedy the overallocation?
 
@@ -302,7 +308,7 @@
 - [ ] Finish-to-Finish (FF)
 - [ ] Start-to-Start (SS)
 - [ ] Start-to-Finish (SF)
-- [ ] Finish-to-Start (FS)
+- [x] Finish-to-Start (FS)
 
 #### Q41. When breaking down the work that needs to be done on a project, what is the smallest unit of work known as?
 
@@ -324,3 +330,59 @@
 - [ ] 5
 - [ ] 3
 - [ ] 1
+
+#### Q44. You are working on a project schedule. You need two tasks to end at the same time so that your review team can do their work on both tasks. Which link type is appropriate?
+
+- [ ] Start-to-Start (SS)
+- [ ] Finish-to-Start (FS)
+- [ ] Start-to-Finish (SF)
+- [x] Finish-to-Finish (FF)
+
+#### Q45. In a project, duration can have different units. Which duration unit is _not_ valid?
+
+- [ ] weeks
+- [ ] hours
+- [ ] days
+- [x] quarters
+
+#### Q46. You would like to import a CSV file into a Microsoft Project file. Project displays a message about opening a file in an older format. How can you open this file?
+
+- [ ] Add a place in the Open File window.
+- [x] Use the Advanced tab in the Project Options dialog box.
+- [ ] Use the General tab in the Project Options dialog box.
+- [ ] Use the Microsoft Project Trust Center.
+
+#### Q47. A certain resource has a workload that varies for a task. The task spans five days and is slow to start, ramps up in the middle, and then eventually tapers off as it comes to an end. Which approach would you use to adjust and represent varying workload?
+
+- [x] resource contouring
+- [ ] resource constraining
+- [ ] resource leveling
+- [ ] resource splitting
+
+#### Q48. What is the purpose of a "Critical Path" in a Microsoft Project schedule, and how is it determined?
+
+- [ ] It is a path of high-priority tasks in the project.
+- [ ] It is a path that must be followed for project success.
+- [x] it is the longest sequence of tasks that determine the project's overall duration.
+- [ ] It is a path that includes all non-critical tasks.
+
+#### Q49. In Microsoft Project, what does the term "Resource Overallocation" refer to, and how can it be resolved?
+
+- [ ] Resource Overallocation means having too many resources allocated to a task. It can be resolved by adjusting task dependencies.
+- [x] Resource Overallocation means a shortage of resources for a task. It can be resolved by leveling resources or adjusting resource calendars.
+- [ ] Resource Overallocation means having too few resources allocated to a task. It can be resolved by crashing the project schedule.
+- [ ] Resource Overallocation means not having any resources assigned to a task. It can be resolved by adding more resources.
+
+#### Q49. In Microsoft Project, what does "PERT" stand for?
+
+- [x] Project Evaluation and Review Technique
+- [ ] Project Expense Reporting Tool
+- [ ] Project Enhancement and Resource Tracking
+- [ ] Project Execution and Reporting Task
+
+#### Q49. What is a "Resource Calendar" used for in Microsoft Project?
+
+- [ ] To track task deadlines
+- [ ] To specify working hours for specific tasks
+- [x] To manage resource availability and working hours
+- [ ] To create Gantt charts
